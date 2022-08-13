@@ -1,0 +1,159 @@
+body {
+  font-family: "Open Sans";
+}
+.navRight {
+  font-size: 14px;
+}
+.contentBackground {
+  background-image: url("./img/contentBackground.png");
+  background-color: black;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.logo:hover {
+  opacity: 0.7;
+}
+.image1:hover {
+  opacity: 0.7;
+}
+
+.hoverchange:hover {
+  background-color: #3a454d !important;
+}
+
+.image1 {
+  background-image: url("./img/image1.png");
+  background-color: red;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+.image2:hover {
+  opacity: 0.7;
+}
+.hoverchange:hover + h3 {
+  display: block !important;
+  color: #4287f5 !important;
+  font-size: 20px !important;
+}
+.image2 {
+  background-image: url("./img/image2.png");
+  background-color: black;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+  margin-bottom: 100px;
+}
+.image3:hover {
+  opacity: 0.7;
+}
+.image3 {
+  background-image: url("./img/image3.png");
+  background-color: black;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+  margin-bottom: 100px;
+}
+.image4:hover {
+  opacity: 0.7;
+}
+.image4 {
+  background-image: url("./img/image4.png");
+  background-color: black;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+.lovely-1 {
+  background-image: url("./img/lovely1.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 230px;
+}
+.lovely-1:hover {
+  opacity: 0.7;
+}
+.lovely-2 {
+  background-image: url("./img/lovely2.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 230px;
+}
+.lovely-2:hover {
+  opacity: 0.7;
+}
+
+.lovely-3 {
+  background-image: url("./img/lovely3.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 230px;
+}
+.lovely-3:hover {
+  opacity: 0.7;
+}
+
+.lovely-4 {
+  background-image: url("./img/lovely4.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 230px;
+}
+.lovely-4:hover {
+  opacity: 0.7;
+}
+.lovely-5 {
+  background-image: url("./img/lovely5.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 230px;
+}
+.lovely-5:hover {
+  opacity: 0.7;
+}
+.lovely-6 {
+  background-image: url("./img/lovely6.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 230px;
+}
+.lovely-6:hover {
+  opacity: 0.7;
+}
+
+
+
