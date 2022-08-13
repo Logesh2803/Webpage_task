@@ -20,13 +20,80 @@ body {
   opacity: 0.7;
 }
 
+/* overlay start */
+.image1 {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image1:hover .overlay {
+  display: block;
+}
+
+.image2 {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image2:hover .overlay {
+  display: block;
+}
+.image3 {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image3:hover .overlay {
+  display: block;
+}
+.image4 {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image4:hover .overlay {
+  display: block;
+}
+/* overlay end */
+
 .hoverchange:hover {
   background-color: #3a454d !important;
+}
+.hoverchange:hover p {
+  color: white !important;
 }
 
 .image1 {
   background-image: url("./img/image1.png");
-  background-color: red;
+  background-color: black;
   background-position: center center;
 
   background-repeat: no-repeat;
@@ -37,11 +104,7 @@ body {
 .image2:hover {
   opacity: 0.7;
 }
-.hoverchange:hover + h3 {
-  display: block !important;
-  color: #4287f5 !important;
-  font-size: 20px !important;
-}
+
 .image2 {
   background-image: url("./img/image2.png");
   background-color: black;
@@ -51,7 +114,6 @@ body {
   background-size: cover;
   height: 250px;
   width: 230px;
-  margin-bottom: 100px;
 }
 .image3:hover {
   opacity: 0.7;
@@ -65,7 +127,6 @@ body {
   background-size: cover;
   height: 250px;
   width: 230px;
-  margin-bottom: 100px;
 }
 .image4:hover {
   opacity: 0.7;
@@ -155,5 +216,99 @@ body {
   opacity: 0.7;
 }
 
+.whatwedo-1 {
+  background-image: url("./img/whatwedo1.png");
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50px;
 
+  position: relative;
+}
+.whatwedo-2 {
+  background-image: url("./img/whatwedo2.png");
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50px;
 
+  position: relative;
+}
+.whatwedo-3 {
+  background-image: url("./img/whatwedo3.png");
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 30px;
+  position: relative;
+}
+.whatwedo-4 {
+  background-image: url("./img/whatwedo4.png");
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50px;
+  position: relative;
+}
+.features-1 {
+  background-image: url("./img/features1.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 230px;
+}
+.features-1:hover {
+  opacity: 0.7;
+}
+.features-2 {
+  background-image: url("./img/features2.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 230px;
+}
+.features-2:hover {
+  opacity: 0.7;
+}
+.features-3 {
+  background-image: url("./img/features3.png");
+  background-position: center center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 230px;
+}
+.features-3:hover {
+  opacity: 0.7;
+}
+
+.map {
+  background-image: url("./img/map.png");
+  /* background-color: black; */
+  background-position:center;
+
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 300px;
+  
+}
+
+.box{
+  background-color: #ffffff;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:150px;
+  /* width:-100px; */
+  margin-top: -140px;
+}
